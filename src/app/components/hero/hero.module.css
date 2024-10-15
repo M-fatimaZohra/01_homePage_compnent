@@ -1,0 +1,58 @@
+.d1{
+    margin: 0;
+    background:url(/teal.jpg);
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+ .d2 , .h1 , .h2 , .h4 , .p , .u1{
+    margin: 50px;
+    text-shadow: 1px 1px 0px black , -1px -1px 0px black;
+    color:rgb(255, 255, 255);
+    
+}
+
+.h1{
+    font-size: 100px;
+    padding: 10px;
+    text-shadow: 3px 3px 0px black , -3px -3px 0px black, -3px 3px 0px black, 3px -3px 0px black;
+}
+.h2{
+    font-size: 70px;
+    text-shadow: 2px 2px 0px black , -2px -2px 0px black, 2px -2px 0px black ,-2px 2px 0px black;
+}
+.h4{
+    font-size: 50px;
+    padding: 10px;
+    text-shadow: 3px 3px 0px black ;
+
+}
+
+.p{
+   
+    text-shadow: 1px 1px 0px black , -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black;
+    border-radius: 40px;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+ .li{
+    display: inline-block;
+    margin: 10px;
+    background-color: darkgreen;
+    padding:10px;
+    border-radius: 30px;
+
+}
+
+.li:hover{
+    background-color: rgb(13, 143, 13);
+    padding: 15px;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+    
+}

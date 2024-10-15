@@ -1,0 +1,37 @@
+
+
+.a{
+    background-color:#058890;
+    font-size:40px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#f3efec;
+    font-family: 'Times New Roman', Times, serif;
+    height: -100px;
+text-align: center;
+    }
+
+    .a1 , .a2{
+        display: inline-block;
+        margin:10px;
+        padding :10px;
+        color: #f3efec;
+        background-color:#058890;    
+    }
+
+    .a2:hover{
+        text-decoration: underline;
+    }
+    .a1:hover{
+        background-color: #f3efec;
+        color:#058890;
+        border-radius:40px ;
+        transition-duration: 500ms;
+
+    }
+
+    .p{
+        margin: 30px;
+    }
